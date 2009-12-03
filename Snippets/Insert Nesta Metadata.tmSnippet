@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>date: `date "+%a %b %d %T %z %Y"`  
+categories: `date "+%b" | tr [A-Z] [a-z]`, `basename "$TM_DIRECTORY"`, ${1:foo}
+summary: ${2:First paragraph.\nSecond paragraph.}
+
+# ${3:Title}
+
+$0</string>
+	<key>keyEquivalent</key>
+	<string>@~</string>
+	<key>name</key>
+	<string>Insert Nesta Metadata</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>nesta</string>
+	<key>uuid</key>
+	<string>CBC90BA8-53E9-4924-98CC-2E678C7037BB</string>
+</dict>
+</plist>
