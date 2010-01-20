@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>date: `date "+%a %b %d %T %z %Y"`  
-categories: `date "+%b" | tr [A-Z] [a-z]`, `basename "$TM_DIRECTORY"`, ${1:foo}
+categories: `date "+%b" | tr [A-Z] [a-z]`, `date "+%Y" | tr [A-Z] [a-z]`, `basename "$TM_DIRECTORY"`, ${1:foo}
 summary: ${2:First paragraph.\nSecond paragraph.}
 
 # ${3:Title}
