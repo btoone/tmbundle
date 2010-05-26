@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Title:  ${1:Title}
+Author: Brandon Toone
+CSS:    http://github.com/btoone/mmd-stylesheet/raw/master/mmd.css
+
+# ${2:Heading} #
+
+$0</string>
+	<key>name</key>
+	<string>Insert MMD Metadata</string>
+	<key>scope</key>
+	<string>text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>mmd</string>
+	<key>uuid</key>
+	<string>E2C0E68B-2FA2-48C4-BE13-1392D0D51842</string>
+</dict>
+</plist>
