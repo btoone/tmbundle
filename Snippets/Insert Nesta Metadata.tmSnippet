@@ -6,8 +6,9 @@
 	<string>date: `date "+%a %b %d %T %z %Y"`  
 categories: `date "+%b" | tr [A-Z] [a-z]`, `date "+%Y" | tr [A-Z] [a-z]`, `basename "$TM_DIRECTORY"`, ${1:foo}
 summary: ${2:First paragraph.\nSecond paragraph.}
+CSS: http://github.com/btoone/mmd-stylesheet/raw/master/mmd.css
 
-# ${3:Title}
+# ${3:Title} #
 
 $0</string>
 	<key>keyEquivalent</key>
