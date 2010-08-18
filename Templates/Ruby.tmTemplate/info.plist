@@ -4,15 +4,15 @@
 <dict>
 	<key>command</key>
 	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
-	perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt; untitled.md &gt; "$TM_NEW_FILE"
+	perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt; untitled.rb &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
-	<string>md</string>
+	<string>rb</string>
 	<key>keyEquivalent</key>
-	<string>^~@m</string>
+	<string>^~@r</string>
 	<key>name</key>
-	<string>MMD Template</string>
+	<string>Ruby</string>
 	<key>uuid</key>
-	<string>9CEF580D-9518-4790-8F1B-5BB2DD1FF814</string>
+	<string>B01DC1CC-A2F7-4BD4-ABE1-CEFFB4824FE9</string>
 </dict>
 </plist>
